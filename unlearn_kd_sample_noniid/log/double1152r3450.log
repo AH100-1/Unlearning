@@ -1,0 +1,126 @@
+/data/khw/unlearn_kd_sample/scripts/unlearn_kd.py:35: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  good_t.load_state_dict(torch.load(args.good_ckpt, map_location="cpu"))
+[Seed fixed to 42]
+Using random init for student model
+Files already downloaded and verified
+Files already downloaded and verified
+teacher: resnet50, student: resnet34
+Epoch 001: test_acc=0.39%, best_acc=0.39%, retain_acc=0.40%, forget_acc=0.25%, mia_rate=0.82%
+teacher: resnet50, student: resnet34
+Epoch 002: test_acc=0.64%, best_acc=0.64%, retain_acc=0.62%, forget_acc=0.57%, mia_rate=0.82%
+teacher: resnet50, student: resnet34
+Epoch 003: test_acc=0.72%, best_acc=0.72%, retain_acc=0.73%, forget_acc=0.69%, mia_rate=0.82%
+teacher: resnet50, student: resnet34
+Epoch 004: test_acc=0.77%, best_acc=0.77%, retain_acc=0.78%, forget_acc=0.74%, mia_rate=0.82%
+teacher: resnet50, student: resnet34
+Epoch 005: test_acc=0.77%, best_acc=0.77%, retain_acc=0.78%, forget_acc=0.71%, mia_rate=0.82%
+teacher: resnet50, student: resnet34
+Epoch 006: test_acc=0.80%, best_acc=0.80%, retain_acc=0.81%, forget_acc=0.77%, mia_rate=0.82%
+teacher: resnet50, student: resnet34
+Epoch 007: test_acc=0.81%, best_acc=0.81%, retain_acc=0.82%, forget_acc=0.78%, mia_rate=0.82%
+teacher: resnet50, student: resnet34
+Epoch 008: test_acc=0.82%, best_acc=0.82%, retain_acc=0.83%, forget_acc=0.82%, mia_rate=0.83%
+teacher: resnet50, student: resnet34
+Epoch 009: test_acc=0.79%, best_acc=0.82%, retain_acc=0.80%, forget_acc=0.83%, mia_rate=0.82%
+teacher: resnet50, student: resnet34
+Epoch 010: test_acc=0.82%, best_acc=0.82%, retain_acc=0.83%, forget_acc=0.80%, mia_rate=0.83%
+teacher: resnet50, student: resnet34
+Epoch 011: test_acc=0.82%, best_acc=0.82%, retain_acc=0.83%, forget_acc=0.81%, mia_rate=0.83%
+teacher: resnet50, student: resnet34
+Epoch 012: test_acc=0.83%, best_acc=0.83%, retain_acc=0.84%, forget_acc=0.83%, mia_rate=0.83%
+teacher: resnet50, student: resnet34
+Epoch 013: test_acc=0.85%, best_acc=0.85%, retain_acc=0.86%, forget_acc=0.84%, mia_rate=0.83%
+teacher: resnet50, student: resnet34
+Epoch 014: test_acc=0.81%, best_acc=0.85%, retain_acc=0.82%, forget_acc=0.79%, mia_rate=0.82%
+teacher: resnet50, student: resnet34
+Epoch 015: test_acc=0.84%, best_acc=0.85%, retain_acc=0.84%, forget_acc=0.84%, mia_rate=0.82%
+teacher: resnet50, student: resnet34
+Epoch 016: test_acc=0.82%, best_acc=0.85%, retain_acc=0.84%, forget_acc=0.79%, mia_rate=0.82%
+teacher: resnet50, student: resnet34
+Epoch 017: test_acc=0.84%, best_acc=0.85%, retain_acc=0.84%, forget_acc=0.83%, mia_rate=0.83%
+teacher: resnet50, student: resnet34
+Epoch 018: test_acc=0.83%, best_acc=0.85%, retain_acc=0.85%, forget_acc=0.82%, mia_rate=0.83%
+teacher: resnet50, student: resnet34
+Epoch 019: test_acc=0.84%, best_acc=0.85%, retain_acc=0.85%, forget_acc=0.80%, mia_rate=0.83%
+teacher: resnet50, student: resnet34
+Epoch 020: test_acc=0.80%, best_acc=0.85%, retain_acc=0.80%, forget_acc=0.80%, mia_rate=0.82%
+teacher: resnet50, student: resnet34
+Epoch 021: test_acc=0.83%, best_acc=0.85%, retain_acc=0.85%, forget_acc=0.80%, mia_rate=0.82%
+teacher: resnet50, student: resnet34
+Epoch 022: test_acc=0.84%, best_acc=0.85%, retain_acc=0.85%, forget_acc=0.81%, mia_rate=0.83%
+teacher: resnet50, student: resnet34
+Epoch 023: test_acc=0.81%, best_acc=0.85%, retain_acc=0.84%, forget_acc=0.79%, mia_rate=0.83%
+teacher: resnet50, student: resnet34
+Epoch 024: test_acc=0.82%, best_acc=0.85%, retain_acc=0.84%, forget_acc=0.79%, mia_rate=0.83%
+teacher: resnet50, student: resnet34
+Epoch 025: test_acc=0.83%, best_acc=0.85%, retain_acc=0.85%, forget_acc=0.81%, mia_rate=0.82%
+teacher: resnet50, student: resnet34
+Epoch 026: test_acc=0.78%, best_acc=0.85%, retain_acc=0.77%, forget_acc=0.73%, mia_rate=0.82%
+teacher: resnet50, student: resnet34
+Epoch 027: test_acc=0.84%, best_acc=0.85%, retain_acc=0.85%, forget_acc=0.81%, mia_rate=0.83%
+teacher: resnet50, student: resnet34
+Epoch 028: test_acc=0.84%, best_acc=0.85%, retain_acc=0.86%, forget_acc=0.81%, mia_rate=0.82%
+teacher: resnet50, student: resnet34
+Epoch 029: test_acc=0.85%, best_acc=0.85%, retain_acc=0.86%, forget_acc=0.82%, mia_rate=0.82%
+teacher: resnet50, student: resnet34
+Epoch 030: test_acc=0.85%, best_acc=0.85%, retain_acc=0.86%, forget_acc=0.82%, mia_rate=0.83%
+teacher: resnet50, student: resnet34
+Epoch 031: test_acc=0.85%, best_acc=0.85%, retain_acc=0.86%, forget_acc=0.81%, mia_rate=0.83%
+teacher: resnet50, student: resnet34
+Epoch 032: test_acc=0.84%, best_acc=0.85%, retain_acc=0.86%, forget_acc=0.82%, mia_rate=0.82%
+teacher: resnet50, student: resnet34
+Epoch 033: test_acc=0.85%, best_acc=0.85%, retain_acc=0.86%, forget_acc=0.81%, mia_rate=0.82%
+teacher: resnet50, student: resnet34
+Epoch 034: test_acc=0.84%, best_acc=0.85%, retain_acc=0.86%, forget_acc=0.81%, mia_rate=0.82%
+teacher: resnet50, student: resnet34
+Epoch 035: test_acc=0.84%, best_acc=0.85%, retain_acc=0.86%, forget_acc=0.81%, mia_rate=0.83%
+teacher: resnet50, student: resnet34
+Epoch 036: test_acc=0.84%, best_acc=0.85%, retain_acc=0.86%, forget_acc=0.82%, mia_rate=0.83%
+teacher: resnet50, student: resnet34
+Epoch 037: test_acc=0.84%, best_acc=0.85%, retain_acc=0.84%, forget_acc=0.79%, mia_rate=0.82%
+teacher: resnet50, student: resnet34
+Epoch 038: test_acc=0.84%, best_acc=0.85%, retain_acc=0.86%, forget_acc=0.80%, mia_rate=0.83%
+teacher: resnet50, student: resnet34
+Epoch 039: test_acc=0.84%, best_acc=0.85%, retain_acc=0.85%, forget_acc=0.80%, mia_rate=0.83%
+teacher: resnet50, student: resnet34
+Epoch 040: test_acc=0.85%, best_acc=0.85%, retain_acc=0.86%, forget_acc=0.82%, mia_rate=0.82%
+teacher: resnet50, student: resnet34
+Epoch 041: test_acc=0.84%, best_acc=0.85%, retain_acc=0.85%, forget_acc=0.80%, mia_rate=0.83%
+teacher: resnet50, student: resnet34
+Epoch 042: test_acc=0.84%, best_acc=0.85%, retain_acc=0.85%, forget_acc=0.80%, mia_rate=0.83%
+teacher: resnet50, student: resnet34
+Epoch 043: test_acc=0.85%, best_acc=0.85%, retain_acc=0.86%, forget_acc=0.81%, mia_rate=0.83%
+teacher: resnet50, student: resnet34
+Epoch 044: test_acc=0.85%, best_acc=0.85%, retain_acc=0.86%, forget_acc=0.81%, mia_rate=0.83%
+teacher: resnet50, student: resnet34
+Epoch 045: test_acc=0.85%, best_acc=0.85%, retain_acc=0.86%, forget_acc=0.80%, mia_rate=0.82%
+teacher: resnet50, student: resnet34
+Epoch 046: test_acc=0.85%, best_acc=0.85%, retain_acc=0.86%, forget_acc=0.81%, mia_rate=0.83%
+teacher: resnet50, student: resnet34
+Epoch 047: test_acc=0.85%, best_acc=0.85%, retain_acc=0.86%, forget_acc=0.81%, mia_rate=0.82%
+teacher: resnet50, student: resnet34
+Epoch 048: test_acc=0.85%, best_acc=0.85%, retain_acc=0.86%, forget_acc=0.81%, mia_rate=0.82%
+teacher: resnet50, student: resnet34
+Epoch 049: test_acc=0.85%, best_acc=0.85%, retain_acc=0.87%, forget_acc=0.82%, mia_rate=0.83%
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/data/khw/unlearn_kd_sample/scripts/unlearn_kd.py", line 81, in <module>
+    main()
+  File "/data/khw/unlearn_kd_sample/scripts/unlearn_kd.py", line 61, in main
+    result_of_unlearn_distill = unlearn_distill(
+                                ^^^^^^^^^^^^^^^^
+  File "/data/khw/unlearn_kd_sample/utils/unlearn_distill.py", line 155, in unlearn_distill
+    torch.save(dic_metrics,path_metric+'/'+cfg.teacher+'_'+cfg.student+'_metric.pkl')
+  File "/data/khw/miniconda3/envs/kang/lib/python3.12/site-packages/torch/serialization.py", line 849, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/khw/miniconda3/envs/kang/lib/python3.12/site-packages/torch/serialization.py", line 716, in _open_zipfile_writer
+    return container(name_or_buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/khw/miniconda3/envs/kang/lib/python3.12/site-packages/torch/serialization.py", line 687, in __init__
+    super().__init__(torch._C.PyTorchFileWriter(self.name))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Parent directory /data/khw/unlearn_kd/lab_metric does not exist.
+teacher: resnet50, student: resnet34
+Epoch 050: test_acc=0.85%, best_acc=0.85%, retain_acc=0.87%, forget_acc=0.81%, mia_rate=0.83%

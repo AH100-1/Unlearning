@@ -1,0 +1,3 @@
+nohup: ignoring input
+Running: resnet50 -> resnet34 | T=1.0 ar=0.3 au=0.3 csu=0.0
+Running: resnet50 -> resnet34 | T=1.0 ar=0.3 au=0.3 csu=0.5
