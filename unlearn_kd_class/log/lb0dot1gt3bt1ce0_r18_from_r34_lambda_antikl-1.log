@@ -1,0 +1,115 @@
+/data/khw/unlearn_kd_class/scripts/unlearn_kd.py:36: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  good_t.load_state_dict(torch.load(args.good_ckpt, map_location="cpu"))
+[Seed fixed to 42]
+Using random init for student model
+Files already downloaded and verified
+Files already downloaded and verified
+teacher: resnet34, student: resnet18
+Epoch 001: retain_test_acc=0.17%, retain_test_best_acc=0.17%, forget_acc_test=0.00%, retain_acc=0.16%, forget_acc=0.00%, mia_rate=0.49%
+teacher: resnet34, student: resnet18
+Epoch 002: retain_test_acc=0.13%, retain_test_best_acc=0.17%, forget_acc_test=0.00%, retain_acc=0.13%, forget_acc=0.00%, mia_rate=0.50%
+teacher: resnet34, student: resnet18
+Epoch 003: retain_test_acc=0.20%, retain_test_best_acc=0.20%, forget_acc_test=0.00%, retain_acc=0.20%, forget_acc=0.00%, mia_rate=0.49%
+teacher: resnet34, student: resnet18
+Epoch 004: retain_test_acc=0.27%, retain_test_best_acc=0.27%, forget_acc_test=0.00%, retain_acc=0.26%, forget_acc=0.00%, mia_rate=0.50%
+teacher: resnet34, student: resnet18
+Epoch 005: retain_test_acc=0.29%, retain_test_best_acc=0.29%, forget_acc_test=0.00%, retain_acc=0.27%, forget_acc=0.00%, mia_rate=0.50%
+teacher: resnet34, student: resnet18
+Epoch 006: retain_test_acc=0.30%, retain_test_best_acc=0.30%, forget_acc_test=0.00%, retain_acc=0.31%, forget_acc=0.00%, mia_rate=0.51%
+teacher: resnet34, student: resnet18
+Epoch 007: retain_test_acc=0.32%, retain_test_best_acc=0.32%, forget_acc_test=0.00%, retain_acc=0.32%, forget_acc=0.00%, mia_rate=0.50%
+teacher: resnet34, student: resnet18
+Epoch 008: retain_test_acc=0.37%, retain_test_best_acc=0.37%, forget_acc_test=0.00%, retain_acc=0.39%, forget_acc=0.00%, mia_rate=0.50%
+teacher: resnet34, student: resnet18
+Epoch 009: retain_test_acc=0.34%, retain_test_best_acc=0.37%, forget_acc_test=0.00%, retain_acc=0.35%, forget_acc=0.00%, mia_rate=0.51%
+teacher: resnet34, student: resnet18
+Epoch 010: retain_test_acc=0.41%, retain_test_best_acc=0.41%, forget_acc_test=0.00%, retain_acc=0.45%, forget_acc=0.00%, mia_rate=0.49%
+teacher: resnet34, student: resnet18
+Epoch 011: retain_test_acc=0.64%, retain_test_best_acc=0.64%, forget_acc_test=0.01%, retain_acc=0.65%, forget_acc=0.00%, mia_rate=0.51%
+teacher: resnet34, student: resnet18
+Epoch 012: retain_test_acc=0.65%, retain_test_best_acc=0.65%, forget_acc_test=0.03%, retain_acc=0.67%, forget_acc=0.01%, mia_rate=0.51%
+teacher: resnet34, student: resnet18
+Epoch 013: retain_test_acc=0.65%, retain_test_best_acc=0.65%, forget_acc_test=0.03%, retain_acc=0.67%, forget_acc=0.01%, mia_rate=0.51%
+teacher: resnet34, student: resnet18
+Epoch 014: retain_test_acc=0.67%, retain_test_best_acc=0.67%, forget_acc_test=0.04%, retain_acc=0.68%, forget_acc=0.02%, mia_rate=0.51%
+teacher: resnet34, student: resnet18
+Epoch 015: retain_test_acc=0.65%, retain_test_best_acc=0.67%, forget_acc_test=0.05%, retain_acc=0.67%, forget_acc=0.03%, mia_rate=0.51%
+teacher: resnet34, student: resnet18
+Epoch 016: retain_test_acc=0.64%, retain_test_best_acc=0.67%, forget_acc_test=0.05%, retain_acc=0.65%, forget_acc=0.03%, mia_rate=0.51%
+teacher: resnet34, student: resnet18
+Epoch 017: retain_test_acc=0.62%, retain_test_best_acc=0.67%, forget_acc_test=0.05%, retain_acc=0.64%, forget_acc=0.03%, mia_rate=0.51%
+teacher: resnet34, student: resnet18
+Epoch 018: retain_test_acc=0.63%, retain_test_best_acc=0.67%, forget_acc_test=0.04%, retain_acc=0.65%, forget_acc=0.02%, mia_rate=0.51%
+teacher: resnet34, student: resnet18
+Epoch 019: retain_test_acc=0.59%, retain_test_best_acc=0.67%, forget_acc_test=0.02%, retain_acc=0.61%, forget_acc=0.01%, mia_rate=0.51%
+teacher: resnet34, student: resnet18
+Epoch 020: retain_test_acc=0.61%, retain_test_best_acc=0.67%, forget_acc_test=0.03%, retain_acc=0.62%, forget_acc=0.01%, mia_rate=0.51%
+teacher: resnet34, student: resnet18
+Epoch 021: retain_test_acc=0.67%, retain_test_best_acc=0.67%, forget_acc_test=0.02%, retain_acc=0.68%, forget_acc=0.01%, mia_rate=0.51%
+teacher: resnet34, student: resnet18
+Epoch 022: retain_test_acc=0.68%, retain_test_best_acc=0.68%, forget_acc_test=0.03%, retain_acc=0.69%, forget_acc=0.02%, mia_rate=0.51%
+teacher: resnet34, student: resnet18
+Epoch 023: retain_test_acc=0.67%, retain_test_best_acc=0.68%, forget_acc_test=0.02%, retain_acc=0.68%, forget_acc=0.02%, mia_rate=0.51%
+teacher: resnet34, student: resnet18
+Epoch 024: retain_test_acc=0.67%, retain_test_best_acc=0.68%, forget_acc_test=0.02%, retain_acc=0.67%, forget_acc=0.01%, mia_rate=0.51%
+teacher: resnet34, student: resnet18
+Epoch 025: retain_test_acc=0.67%, retain_test_best_acc=0.68%, forget_acc_test=0.02%, retain_acc=0.68%, forget_acc=0.01%, mia_rate=0.51%
+teacher: resnet34, student: resnet18
+Epoch 026: retain_test_acc=0.67%, retain_test_best_acc=0.68%, forget_acc_test=0.02%, retain_acc=0.68%, forget_acc=0.01%, mia_rate=0.51%
+teacher: resnet34, student: resnet18
+Epoch 027: retain_test_acc=0.67%, retain_test_best_acc=0.68%, forget_acc_test=0.02%, retain_acc=0.68%, forget_acc=0.01%, mia_rate=0.51%
+teacher: resnet34, student: resnet18
+Epoch 028: retain_test_acc=0.68%, retain_test_best_acc=0.68%, forget_acc_test=0.02%, retain_acc=0.69%, forget_acc=0.01%, mia_rate=0.51%
+teacher: resnet34, student: resnet18
+Epoch 029: retain_test_acc=0.68%, retain_test_best_acc=0.68%, forget_acc_test=0.01%, retain_acc=0.68%, forget_acc=0.01%, mia_rate=0.51%
+teacher: resnet34, student: resnet18
+Epoch 030: retain_test_acc=0.66%, retain_test_best_acc=0.68%, forget_acc_test=0.02%, retain_acc=0.67%, forget_acc=0.01%, mia_rate=0.50%
+teacher: resnet34, student: resnet18
+Epoch 031: retain_test_acc=0.67%, retain_test_best_acc=0.68%, forget_acc_test=0.01%, retain_acc=0.67%, forget_acc=0.01%, mia_rate=0.51%
+teacher: resnet34, student: resnet18
+Epoch 032: retain_test_acc=0.66%, retain_test_best_acc=0.68%, forget_acc_test=0.01%, retain_acc=0.67%, forget_acc=0.01%, mia_rate=0.51%
+teacher: resnet34, student: resnet18
+Epoch 033: retain_test_acc=0.67%, retain_test_best_acc=0.68%, forget_acc_test=0.01%, retain_acc=0.67%, forget_acc=0.01%, mia_rate=0.51%
+teacher: resnet34, student: resnet18
+Epoch 034: retain_test_acc=0.67%, retain_test_best_acc=0.68%, forget_acc_test=0.01%, retain_acc=0.67%, forget_acc=0.01%, mia_rate=0.51%
+teacher: resnet34, student: resnet18
+Epoch 035: retain_test_acc=0.67%, retain_test_best_acc=0.68%, forget_acc_test=0.01%, retain_acc=0.67%, forget_acc=0.01%, mia_rate=0.51%
+teacher: resnet34, student: resnet18
+Epoch 036: retain_test_acc=0.67%, retain_test_best_acc=0.68%, forget_acc_test=0.02%, retain_acc=0.68%, forget_acc=0.01%, mia_rate=0.51%
+teacher: resnet34, student: resnet18
+Epoch 037: retain_test_acc=0.66%, retain_test_best_acc=0.68%, forget_acc_test=0.01%, retain_acc=0.67%, forget_acc=0.01%, mia_rate=0.51%
+teacher: resnet34, student: resnet18
+Epoch 038: retain_test_acc=0.67%, retain_test_best_acc=0.68%, forget_acc_test=0.01%, retain_acc=0.67%, forget_acc=0.01%, mia_rate=0.50%
+teacher: resnet34, student: resnet18
+Epoch 039: retain_test_acc=0.67%, retain_test_best_acc=0.68%, forget_acc_test=0.01%, retain_acc=0.67%, forget_acc=0.01%, mia_rate=0.51%
+teacher: resnet34, student: resnet18
+Epoch 040: retain_test_acc=0.66%, retain_test_best_acc=0.68%, forget_acc_test=0.01%, retain_acc=0.67%, forget_acc=0.01%, mia_rate=0.51%
+teacher: resnet34, student: resnet18
+Epoch 041: retain_test_acc=0.66%, retain_test_best_acc=0.68%, forget_acc_test=0.01%, retain_acc=0.67%, forget_acc=0.01%, mia_rate=0.50%
+teacher: resnet34, student: resnet18
+Epoch 042: retain_test_acc=0.66%, retain_test_best_acc=0.68%, forget_acc_test=0.01%, retain_acc=0.67%, forget_acc=0.00%, mia_rate=0.51%
+teacher: resnet34, student: resnet18
+Epoch 043: retain_test_acc=0.67%, retain_test_best_acc=0.68%, forget_acc_test=0.02%, retain_acc=0.68%, forget_acc=0.01%, mia_rate=0.51%
+teacher: resnet34, student: resnet18
+Epoch 044: retain_test_acc=0.67%, retain_test_best_acc=0.68%, forget_acc_test=0.01%, retain_acc=0.67%, forget_acc=0.01%, mia_rate=0.51%
+teacher: resnet34, student: resnet18
+Epoch 045: retain_test_acc=0.66%, retain_test_best_acc=0.68%, forget_acc_test=0.01%, retain_acc=0.67%, forget_acc=0.01%, mia_rate=0.51%
+teacher: resnet34, student: resnet18
+Epoch 046: retain_test_acc=0.66%, retain_test_best_acc=0.68%, forget_acc_test=0.01%, retain_acc=0.67%, forget_acc=0.01%, mia_rate=0.51%
+teacher: resnet34, student: resnet18
+Epoch 047: retain_test_acc=0.65%, retain_test_best_acc=0.68%, forget_acc_test=0.01%, retain_acc=0.66%, forget_acc=0.01%, mia_rate=0.51%
+teacher: resnet34, student: resnet18
+Epoch 048: retain_test_acc=0.67%, retain_test_best_acc=0.68%, forget_acc_test=0.01%, retain_acc=0.68%, forget_acc=0.01%, mia_rate=0.51%
+teacher: resnet34, student: resnet18
+Epoch 049: retain_test_acc=0.66%, retain_test_best_acc=0.68%, forget_acc_test=0.01%, retain_acc=0.67%, forget_acc=0.01%, mia_rate=0.51%
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/data/khw/unlearn_kd_class/scripts/unlearn_kd.py", line 90, in <module>
+    main()
+  File "/data/khw/unlearn_kd_class/scripts/unlearn_kd.py", line 70, in main
+    stats = dic_unlearn_distill["stats"]
+            ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+KeyError: 'stats'
+teacher: resnet34, student: resnet18
+Epoch 050: retain_test_acc=0.68%, retain_test_best_acc=0.68%, forget_acc_test=0.01%, retain_acc=0.68%, forget_acc=0.01%, mia_rate=0.51%
