@@ -1,0 +1,11 @@
+/root/anaconda3/envs/khw/lib/python3.9/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/root/anaconda3/envs/khw/lib/python3.9/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+Files already downloaded and verified
+Files already downloaded and verified
+
+=== Accuracy (Retrain baseline, 1회) ===
+[Test:Retrain/Retain_train] Acc 99.84%
+[Test:Retrain/Forget_train] Acc 81.16%
+[Test:Retrain/Retain_test] Acc 80.03%
